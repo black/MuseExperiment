@@ -15,10 +15,12 @@ Currently, the repository includes two files:
 
 ### 🚀 Running the Experiment
 
-To get started, simply run:
+To get started, simply:
 
 ```bash
+cd application
 python experimentManager.py
+```
 
 This will initiate a short experience session. All EEG data will be saved to
 eeg_data.csv
