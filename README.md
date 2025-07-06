@@ -26,3 +26,6 @@ python experimentManager.py
 
 This will initiate a short experience session. All EEG data will be saved to
 eeg_data.csv
+
+### Running on Linux
+It should work, but you need to remove the soft_beep method as it's specific for Windows.
