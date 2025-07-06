@@ -1,2 +1,24 @@
 # MuseExperiment
-This repo shares a short experience setup for the Muse, by Interaxon, as explained in the associated Youtube video
+
+This repository provides a simple experimental setup for the **Muse** EEG headband by Interaxon, as demonstrated in the accompanying [YouTube video](#).
+
+## 🧠 Overview
+
+This experiment connects to a Muse device using a custom `MuseProxy` object, which handles the software interface and includes an **auto-reconnect** feature for reliability.
+
+## 🗓️ Status – July 5, 2025
+
+Currently, the repository includes two files:
+
+- `MuseProxy.py` – Implements the connection and data handling logic for the Muse device.
+- `experimentManager.py` – Launches the experiment session and manages data collection.
+
+### 🚀 Running the Experiment
+
+To get started, simply run:
+
+```bash
+python experimentManager.py
+
+This will initiate a short experience session. All EEG data will be saved to
+eeg_data.csv
