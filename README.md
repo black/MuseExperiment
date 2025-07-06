@@ -1,6 +1,6 @@
 # MuseExperiment
 
-This repository provides a simple experimental setup for the **Muse** EEG headband by Interaxon, as demonstrated in the accompanying [YouTube video](#).
+This repository provides a simple experimental setup for the **Muse** EEG headband by Interaxon, as demonstrated in the accompanying Youtube video (not online, yet)
 
 ## 🧠 Overview
 
