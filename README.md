@@ -17,6 +17,8 @@ Currently, the repository includes two files:
 
 To get started, simply:
 
+- edit `experimentManager.py` to set your Muse Mac address
+
 ```bash
 cd application
 python experimentManager.py
