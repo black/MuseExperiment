@@ -1,26 +1,69 @@
-# MuseExperiment
+# 🧠 MuseExperiment – EEG Visual Demos with Muse by Interaxon
 
-This repository provides a simple experimental setup for the **Muse** EEG headband by Interaxon, as demonstrated in the accompanying Youtube video (not online, yet)
+**Author:** Fred Simard, [RE-AK Technologies](https://www.re-ak.com), 2025  
+📣 [Join our Discord](https://discord.gg/XzeDHJf6ne) for support, discussion, and updates!
 
-## 🧠 Overview
+---
 
-This experiment connects to a Muse device using a custom `MuseProxy` object, which handles the software interface and includes an **auto-reconnect** feature for reliability.
+This repository provides a minimal experimental setup to get started with the **Muse** EEG headband by **Interaxon**. It's designed to accompany a YouTube tutorial series (Lesson 1 coming soon), focusing on real-time EEG signal acquisition and artifact visualization.
 
-## 🗓️ Status – July 5, 2025
+---
 
-Currently, the repository includes two files:
+## 📦 Contents
 
-- `MuseProxy.py` – Implements the connection and data handling logic for the Muse device.
-- `experimentManager.py` – Launches the experiment session and manages data collection.
+- ✅ **`ep_1/`** – A beginner-friendly example that:
+  - Connects to a Muse headset
+  - Starts a real-time visualizer using PyQtGraph
+  - Saves filtered EEG data to CSV
+  - Demonstrates common EEG artifacts: blinks, jaw clenches, frowning, noise
 
-### 🚀 Running the Experiment
+- ✅ **`MuseProxy`** – A robust, auto-reconnecting BLE handler that simplifies Muse communication using `bleak` and `asyncio`.
 
-To get started, simply:
+---
+
+## 🚀 Getting Started
+
+### Requirements
+
+Make sure you have the following installed:
 
 ```bash
-cd application
-python experimentManager.py
+pip install requirements.txt
 ```
 
-This will initiate a short experience session. All EEG data will be saved to
-eeg_data.csv
+
+## 🔍 Find Your Muse MAC Address
+
+```bash
+cd ep_1
+python ble_scanner.py
+```
+
+## ▶️ Run the Live Visualizer
+
+```bash
+cd ep_1
+python lesson_1.py
+```
+
+
+This will:
+
+Connect to your Muse headset
+
+Display real-time EEG plots
+
+Save data to:
+ep_1/data/my_file_{timestamp}.csv
+
+
+
+## 🛠️ Status – July 13, 2025
+This is Lesson 1 in a planned multi-part series. It is functional and tested with the Muse 2 and Muse S devices. Contributions and issues are welcome.
+
+## 👤 Author
+Fred Simard
+RE-AK Technologies
+📅 2025
+🌐 www.re-ak.com
+💬 [Join our Discord](https://discord.gg/XzeDHJf6ne)
