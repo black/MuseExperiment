@@ -27,10 +27,11 @@ This repository provides a minimal experimental setup to get started with the **
 
 Make sure you have the following installed:
 
+- edit `experimentManager.py` to set your Muse Mac address
+
 ```bash
 pip install requirements.txt
 ```
-
 
 ## 🔍 Find Your Muse MAC Address
 
@@ -46,7 +47,6 @@ cd ep_1
 python lesson_1.py
 ```
 
-
 This will:
 
 Connect to your Muse headset
@@ -56,6 +56,8 @@ Display real-time EEG plots
 Save data to:
 ep_1/data/my_file_{timestamp}.csv
 
+### Running on Linux
+It should work, but you need to remove the soft_beep method as it's specific for Windows.
 
 
 ## 🛠️ Status – July 13, 2025
@@ -67,3 +69,7 @@ RE-AK Technologies
 📅 2025
 🌐 www.re-ak.com
 💬 [Join our Discord](https://discord.gg/XzeDHJf6ne)
+=======
+This will initiate a short experience session. All EEG data will be saved to
+eeg_data.csv
+
