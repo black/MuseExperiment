@@ -64,6 +64,7 @@ It should work, but you need to remove the soft_beep method as it's specific for
 This is Lesson 1 in a planned multi-part series. It is functional and tested with the Muse 2 and Muse S devices. Contributions and issues are welcome.
 
 ## 👤 Author
+
 Fred Simard
 RE-AK Technologies
 📅 2025
