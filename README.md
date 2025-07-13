@@ -16,6 +16,7 @@ This repository provides a minimal experimental setup to get started with the **
   - Starts a real-time visualizer using PyQtGraph
   - Saves filtered EEG data to CSV
   - Demonstrates common EEG artifacts: blinks, jaw clenches, frowning, noise
+  - Youtube video: https://youtu.be/eTBOwD8-0VM
 
 - ✅ **`MuseProxy`** – A robust, auto-reconnecting BLE handler that simplifies Muse communication using `bleak` and `asyncio`.
 
