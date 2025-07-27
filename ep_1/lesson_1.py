@@ -68,16 +68,8 @@ def close_file():
 
 atexit.register(close_file)
 
-"""
-Ctrl-C signal handling
-"""
-shutdown_event = Event()
-
-def signal_handler(sig, frame):
-    print("\n[INFO] Caught Ctrl+C, shutting down gracefully...")
-    shutdown_event.set()
-
-signal.signal(signal.SIGINT, signal_handler)
+# Queue for inter-process communication (EEG data)
+q = Queue()
 
 """
 EEG call back
@@ -123,8 +115,6 @@ signal.signal(signal.SIGINT, signal_handler)
 # ------------------------------
 
 if __name__ == "__main__":
-    # Queue for inter-process communication (EEG data)
-    q = Queue()
 
     # Start visualization in a separate process
     vis_process = Process(target=visualizer, args=(q, shutdown_event))

@@ -5,7 +5,9 @@
 
 ---
 
-This repository provides a minimal experimental setup to get started with the **Muse** EEG headband by **Interaxon**. It's designed to accompany a YouTube tutorial series (Lesson 1 coming soon), focusing on real-time EEG signal acquisition and artifact visualization.
+This repository provides a minimal experimental setup to get started with the **Muse** EEG headband by **Interaxon**. It's designed to accompany a YouTube tutorial series, focusing on teaching the basics of BCI hacking.
+
+
 
 ---
 
@@ -16,12 +18,18 @@ This repository provides a minimal experimental setup to get started with the **
   - Starts a real-time visualizer using PyQtGraph
   - Saves filtered EEG data to CSV
   - Demonstrates common EEG artifacts: blinks, jaw clenches, frowning, noise
+  - https://youtu.be/eTBOwD8-0VM?si=Ci-spsPdS-Q-X2pr
 
-- ✅ **`MuseProxy`** – A robust, auto-reconnecting BLE handler that simplifies Muse communication using `bleak` and `asyncio`.
+
+- ✅ **`ep_2/`** – Capturing the Alpha Wave. Example that:
+  - Connects to a Muse headset
+  - Implements the described experiment paradigm
+  - Saves filtered EEG data to CSV
+  - Visualize the results using: Spectrogram and Power Spectrum Density
 
 ---
 
-## 🚀 Getting Started
+## 🚀 Getting Started (episode 1)
 
 ### Requirements
 
@@ -60,8 +68,8 @@ ep_1/data/my_file_{timestamp}.csv
 It should work, but you need to remove the soft_beep method as it's specific for Windows.
 
 
-## 🛠️ Status – July 13, 2025
-This is Lesson 1 in a planned multi-part series. It is functional and tested with the Muse 2 and Muse S devices. Contributions and issues are welcome.
+## 🛠️ Status – July 27, 2025
+Just published Lesson 2. It is functional and tested with the Muse 2 on Windows. Contributions and issues are welcome.
 
 ## 👤 Author
 Fred Simard
@@ -70,6 +78,4 @@ RE-AK Technologies
 🌐 www.re-ak.com
 💬 [Join our Discord](https://discord.gg/XzeDHJf6ne)
 =======
-This will initiate a short experience session. All EEG data will be saved to
-eeg_data.csv
 
