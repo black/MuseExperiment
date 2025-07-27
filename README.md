@@ -18,8 +18,7 @@ This repository provides a minimal experimental setup to get started with the **
   - Starts a real-time visualizer using PyQtGraph
   - Saves filtered EEG data to CSV
   - Demonstrates common EEG artifacts: blinks, jaw clenches, frowning, noise
-  - https://youtu.be/eTBOwD8-0VM?si=Ci-spsPdS-Q-X2pr
-
+  - Youtube video: https://youtu.be/eTBOwD8-0VM
 
 - ✅ **`ep_2/`** – Capturing the Alpha Wave. Example that:
   - Connects to a Muse headset
@@ -77,5 +76,4 @@ RE-AK Technologies
 📅 2025
 🌐 www.re-ak.com
 💬 [Join our Discord](https://discord.gg/XzeDHJf6ne)
-=======
 
