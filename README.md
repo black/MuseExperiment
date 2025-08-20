@@ -7,7 +7,7 @@
 
 This repository provides a minimal experimental setup to get started with the **Muse** EEG headband by **Interaxon**. It's designed to accompany a YouTube tutorial series, focusing on teaching the basics of BCI hacking.
 
-
+It then provides code samples for the various explanations and demonstrations presented in the Youtube Videos.
 
 ---
 
@@ -25,6 +25,14 @@ This repository provides a minimal experimental setup to get started with the **
   - Implements the described experiment paradigm
   - Saves filtered EEG data to CSV
   - Visualize the results using: Spectrogram and Power Spectrum Density
+  - Youtube video: https://youtu.be/H6OsqBXr_7A
+
+- ✅ **`ep_3/`** – Biofeedback Experience Design and Unsupervised Calibration, using GMM:
+  - Use the sample dataset recorded in episode 2 (refer to episode 2 to record your own data)
+  - Describes the parameters of the biofeedback experiment we are developing
+  - Presents two different models: Z-Score transform and two-states GMM
+  - Visualize the results
+  - Youtube video: https://youtu.be/HBL3W3tV23E
 
 ---
 
