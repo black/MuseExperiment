@@ -34,6 +34,14 @@ It then provides code samples for the various explanations and demonstrations pr
   - Visualize the results
   - Youtube video: https://youtu.be/HBL3W3tV23E
 
+- ✅ **`ep_3/`** – Biofeedback Experience Design and Unsupervised Calibration, using GMM:
+  - Use the sample dataset recorded in episode 2 (refer to episode 2 to record your own data)
+  - Describes the parameters of the biofeedback experiment we are developing
+  - Presents two different models: Z-Score transform and two-states GMM
+  - Visualize the results
+  - Youtube video: https://youtu.be/HBL3W3tV23E
+
+
 ---
 
 ## 🚀 Getting Started (episode 1)
